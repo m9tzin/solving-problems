@@ -10,7 +10,19 @@
 "Return k."
 
 from typing import List
-
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        return k
+        if nums is None or len(nums) == 0:
+            return None
+        j = 0
+        for i in range(len(nums)):
+            if nums[i] != nums[j]:
+                j += 1
+                nums[j] = nums[i]
+        return j+1
+
+# Simple test:
+if __name__ == "__main__":
+    testring = Solution()
+    items = [1,1,1,2,3,4,5,5,6] # k = 6
+    print(testring.removeDuplicates(items))
