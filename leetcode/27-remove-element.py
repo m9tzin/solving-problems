@@ -12,9 +12,21 @@
 from typing import List
 
 class Solution:
-    def removeElement(self, nums, val):
-        k = 0
-        return k
+    def removeElement(self, nums: List[int], val: int) -> int:
+            j = 0
+            for i in range(len(nums)):
+                if nums[i] != val:
+                     nums[j] = nums[i]
+                     j += 1
+            return j
     
 # Input: nums = [3,2,2,3], val = 3
-# Output: 2, nums = [2,2,_,_]
+# Output: 2, nums = [2,2]
+
+# Output
+if __name__ == "__main__":
+    nums = [3, 2, 2, 3]
+    val = 3
+    solution = Solution()
+    k = solution.removeElement(nums, val)
+    print(f"Output: {k}, nums = {nums[:k]}")
