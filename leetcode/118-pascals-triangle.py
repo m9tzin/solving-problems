@@ -1,4 +1,4 @@
-1# 118 - Pascal's Triangle
+# 118 - Pascal's Triangle
 # 21/04/2025
 # Matheus Marinho
 
