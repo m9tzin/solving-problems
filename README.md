@@ -7,15 +7,11 @@ Repositório pessoal para resolução de problemas de algoritmos e estruturas de
 ```
 solving-problems/
 ├── hackerrank/
-│   └── simple-array-sum.go
+│   └── ...
 ├── leetcode/
 │   ├── go/
-│   │   ├── 35-search-position.go
-│   │   ├── 561-array-partition.go
 │   │   └── ...
 │   └── py/
-│       ├── 01-two-sum.py
-│       ├── 09-palindrome-number.py
 │       └── ...
 ```
 
