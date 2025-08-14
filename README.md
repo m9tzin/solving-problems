@@ -7,6 +7,8 @@ Repositório pessoal para resolução de problemas de algoritmos e estruturas de
 ```
 solving-problems/
 ├── hackerrank/
+│   ├── go/
+│   │   └─ ...
 │   └── ...
 ├── leetcode/
 │   ├── go/
