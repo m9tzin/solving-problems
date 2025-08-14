@@ -1,5 +1,5 @@
-//go:build sum
-// +build sum
+//go:build sum || !bubble
+// +build sum !bubble
 
 /* Given an array of integers, find the sum of its elements. */
 
