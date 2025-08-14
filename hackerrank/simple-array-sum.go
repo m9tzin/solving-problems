@@ -1,3 +1,6 @@
+//go:build sum
+// +build sum
+
 /* Given an array of integers, find the sum of its elements. */
 
 package main
