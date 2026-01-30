@@ -15,11 +15,14 @@ solving-problems/
 │   │   └── ...
 │   └── py/
 │       └── ...
+├── others/
+│   └── ...
 ```
 
 - **hackerrank/**: Soluções para desafios do HackerRank (Go).
 - **leetcode/go/**: Soluções do LeetCode em Go.
 - **leetcode/py/**: Soluções do LeetCode em Python.
+- **others/**: Outros desafios e problemas diversos.
 
 ## Como rodar os códigos
 
@@ -37,6 +40,14 @@ Execute diretamente:
 
 ```sh
 python nome-do-arquivo.py
+```
+
+### C++
+
+Execute diretamente:
+
+```sh
+./nome-do-arquivo
 ```
 
 ## Objetivo
